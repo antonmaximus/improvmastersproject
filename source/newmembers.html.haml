@@ -1,0 +1,60 @@
+---
+title: Improv Masters
+body_class: index
+---
+
+= partial('./layouts/header')
+
+%section.block1
+  .container
+    .row
+      .col-md-12  
+        %img.pull-right.unclesampic{src:'./images/unclesam.jpg', alt:''}
+        %h1 Become a Member!
+        %p Joining means you can take a more active role in meetings by giving speeches, performing functionary roles including Toastmaster, Grammarian, Timer, Improv Master, Table Topics Master, and Speech Evaluator, and even run for office in the Club.
+        %p The membership fee is $72 for six months. The first time you join a Toastmasters club, it costs an additional $22 for two books: The Competent Communicator, which has ten speech assignments designed to help you improve your speaking skills rapidly; and The Competent Leader, which has assignments that help you build leadership skills.
+        %p.pdf
+          %a.btn.btn-primary.btn-lg{href:'http://www.toastmasters.org/memberapp.aspx', role: "button", target:'_blank'} 
+            %i.fa.fa-file-pdf-o 
+            %span Download PDF File
+    .row
+      .col-md-12  
+        %figure.rosiepic.pull-left
+          %img{src:'./images/rosie.jpg', alt:'Become a Member!'}
+          / %figcaption
+          /   %a{href:"/wiki/J._Howard_Miller", title:"J. Howard Miller"}J. Howard Miller
+          /   's "We Can Do It!" poster from 1943
+        %h2 Frequently Asked Questions
+        %ul.faq
+          %li
+            %span.question Is it ok for me to just sit and watch? 
+            %span.answer Yes, it is. We encourage everyone to participate as much or as little as they like.
+          %li
+            %span.question Do I have to do speeches, or can I just play games?
+            %span.answer No, you don’t have to do speeches. In fact, only members can sign up and give speeches. However, we do improv at every meeting and guests are welcome to join in on improv games as much as they’d like.
+          %li
+            %span.question Do you perform as a group?
+            %span.answer  No, some of our members do perform in various ways, but ImprovMasters is a Toastmasters club with improv, not a performance group.
+          %li
+            %span.question What skill level are the members?
+            %span.answer We are a bunch of ranked amateurs.  We like it that way. 
+          %li
+            %span.question Who do I contact for further inquiries?
+            %span.answer 
+              You can send us 
+              %a{href:"contact.html", alt:''}an email here 
+              or visit us during our club meeting every Friday at 8PM.
+
+    .row 
+      .col-md-12
+        %h2 Benefits of participating fully in the ImprovMasters experience
+        %ul
+          %li Great practice at being in the moment while interacting with other people
+          %li Becoming more flexible and spontaneous
+          %li Getting better at listening and responding authentically
+          %li Becoming a better speaker and Honing your voice as a speaker
+          %li Becoming more comfortable at speaking off the cuff
+          %li Developing leadership skills and leading group discussions
+          %li A great way to meet new people in the West LA area
+
+= partial('./layouts/footer')

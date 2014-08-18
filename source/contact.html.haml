@@ -1,0 +1,32 @@
+---
+title: Improv Masters
+body_class: index
+---
+
+= partial('./layouts/header')
+
+%section.block1
+  .container
+    .row
+      .col-xs-12.col-sm-12
+        %h1 Contact Us!
+        %p 
+          Email us at
+          %a#targetEmail{href:'#'} [Enable JavaScript Pls.]
+          OR fill out the form below.
+        .row
+          .col-sm-12.col-md-6
+            %form#forBrace{method:'POST', action:''}
+              .form-group
+                %label{for:'exampleInputName'} Name
+                %input.form-control#exampleInputName{name:'name', type:'', placeholder:'Enter name', required:'true'}
+              .form-group
+                %label{for:'exampleInputEmail1'} Email address
+                %input.form-control#exampleInputEmail1{name:'_replyto', type:'email', placeholder:'Enter email', required:'true'}      
+              .form-group
+                %label{for:'exampleTextArea'} Message
+                %textarea.form-control#exampleInputEmail1{name:'message', type:'email', rows:'5', required:'true'}   
+              %button.btn.btn-primary{type:'submit'} Submit
+
+= javascript_include_tag "./javascripts/inject_toastmaster_email"
+= partial('./layouts/footer')

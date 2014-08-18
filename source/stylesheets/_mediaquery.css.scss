@@ -1,0 +1,111 @@
+
+
+/*------------------------------------*\
+    $MEDIA QUERY
+\*------------------------------------*/
+
+@media screen and (max-width: 992px) { //small screen
+  .toastrightpics {
+    padding-top: 0;
+  }
+
+  .gmap {
+    margin-top: 30px;
+  }
+
+  .greetings {
+    width: 54%;
+    padding-left: 15px;
+  }
+
+  .encloser {
+    // display: block;
+    width: 45%
+  }
+
+}
+
+@media screen and (max-width: 768px) { //mobile screen
+  .rightpics {
+    margin-bottom: 20px;
+    width: 100%;
+    margin-left: 0;
+    padding: 0 5%;
+    float: none;
+  }
+
+  .jumbotron {
+    svg {
+      width: 80%;
+    }
+  }
+
+  #leadership figure {
+    margin-bottom: 10px;
+  }
+
+  .jumbotronSpecial {
+    h1, .intro svg, .signup{
+      margin-top: 30px;
+    }
+  }
+
+  .greetings {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .encloser {
+    margin-top: 10px;
+    width: 100%;
+    padding-right: 0;
+
+    .nonfloatingForm {
+      padding-top: 10px;
+    }
+  }
+
+}
+
+
+
+@media screen and (max-width: 545px) {
+  .toastrightpics {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0 5%;
+    margin-left: 0;
+  }
+
+  .tinapic {
+    width: 90px;
+  }
+
+  .toastleftpics {
+    margin-right: 0;
+  }
+
+  .jumbotronSpecial {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .jumbotron {
+    svg {
+      width: 95%;
+    }
+  }
+
+}
+
+
+@media screen and (max-width: 375px) {
+  .jumbotron {
+    svg {
+      width: 100%;
+    }
+  }
+
+}
