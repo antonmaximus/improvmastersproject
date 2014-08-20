@@ -11,7 +11,7 @@ ImprovMasters Project
 
 An informational website built using modern front-end framework and uses various design techniques.
 
-The site uses Twitter Bootstrap, jQuery, JavaScript, HTML5, and CSS3 for its front-end framework.  Also, the site uses Google Docs as a backend in one of its pages.  The information from the Google Document is fetched via  jQuery and the delivered as JSON. 
+The site uses Twitter Bootstrap, jQuery, JavaScript, HTML5, and CSS3 for its front-end framework.  Also, the site uses Google Docs as a backend in one of its pages.  The information from the Google Document is fetched via  jQuery and then delivered as JSON. 
 
 Furthermore, careful design analysis was incorporated in creating the site.  Orange which symbolizes energy and blue which symbolizes responsibility have been chosen as they represent the organization's mission.   A Modern Serif Font style was chosen for its typography since it best depicts arts & culture.  Finally, the site follows a responsive design so that it accommodates various screen sizes.  
 
