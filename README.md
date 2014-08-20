@@ -19,11 +19,11 @@ Furthermore, careful design analysis was incorporated in creating the site.  Ora
 
 
 Front-end: 
-Twitter Bootstrap, jQuery, JavaScript, HTML5, CSS3
+Twitter Bootstrap, jQuery, JavaScript, HTML/HAML, CSS/SCSS
 
 Back-end: 
 Google Docs, JSON
 
 Other:
-Responsive Design, Web Design Techniques, Middleman
+Responsive Design, Web Design Techniques, Middleman, Autoprefixer
 
