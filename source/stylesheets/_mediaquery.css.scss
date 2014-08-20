@@ -44,6 +44,23 @@
     margin-bottom: 10px;
   }
 
+  #leadership {
+    .presidentspiel {
+        display: block;
+        height: 100%; /* image's height */
+        padding-bottom: 20px;
+
+    }
+  
+    .presidentspiel p {
+        height: 100%; /* image's height */
+        display: inline-block;
+        vertical-align: text-top;
+        text-align: center;
+    }
+  }
+
+
   .jumbotronSpecial {
     .intro svg {
       margin-top: 30px;
