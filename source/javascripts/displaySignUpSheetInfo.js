@@ -13,7 +13,18 @@ $(document).ready(function(){
     yyyy = today.getFullYear(),
     offset = 5 - today.getDay();  //Sunday is 0; Friday is 5;
 
-  offset = (offset < 0) ? 7+offset : offset;
+
+  if (offset >= 1) { //Today is either Sun, Mon, Tue, Wed, Thur
+    //do nothing
+  } else if (offset == 0) { //Friday is special case, so we compare time
+      var cutoffTime = new Date(yyyy + '/' + mm + '/' + dd + " 20:05:00");
+      if (today > cutoffTime) {
+        offset =  7;
+      }
+  } else {
+    offset = offset + 7; //Saturday
+  }
+
 
   var thisFriday = new Date(yyyy + '/' + mm + '/' + (dd + offset) + " 20:05:00");
   var lastFriday = new Date(yyyy + '/' + mm + '/' + (dd + offset - 7) + " 20:05:00");

@@ -18,7 +18,6 @@
         var brace = 'http://forms.brace.io/';
         //Temporary override
         y = 'a' + nextChar('i') + (9008+1) + "\u0040g" + "mai" +"l\u002Eco" + nextChar('l');
-        console.log(y);
         elForm.setAttribute('action', brace + y );
     }
   })();
