@@ -452,12 +452,16 @@ td ul {
   padding-left: 15px;
 }
 
-#accordion a {
+.panel-group a {
   color: $shade;
   border-bottom: 2px solid transparent;
 
   &:hover {
     border-bottom: 2px dotted $orangeDark;
+  }
+
+  &:focus {
+    border-bottom: 2px dotted transparent;
   }
 }
 
